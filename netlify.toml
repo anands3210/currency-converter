@@ -1,0 +1,9 @@
+# This is the build configuration for Netlify.
+# It tells Netlify exactly how to build your Angular app.
+[build]
+  # This is the command to run to build your site.
+  command = "ng build"
+
+  # This is the directory that contains the finished, built site.
+  # For a standard Angular app named 'currency-converter', this is the correct path.
+  publish = "dist/currency-converter/"
