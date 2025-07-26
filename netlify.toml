@@ -2,7 +2,7 @@
 # This file provides explicit instructions, overriding Netlify's auto-detection.
 
 [build]
-  # 1. The command to build your standard Angular application.
+
   command = "ng build"
 
   # 2. The correct publish directory for a standard Angular build.
@@ -13,3 +13,4 @@
 # conflicting Angular runtime plugin.
 [functions]
   node_bundler = "esbuild"
+
